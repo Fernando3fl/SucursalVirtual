@@ -1,0 +1,57 @@
+<!-- <form class="form-box animated fadeInUp mt-5">
+  <div class="form-title">
+    <h1 class="">Inicio sesion</h1>
+    <h2 class="">Asegurado</h2>
+  </div>
+  <input type="text" placeholder="Username" autofocus/>
+  <input type="password" placeholder="Password" />
+  <button type="submit" (click)="irAsegurado()">Login</button>
+</form>
+ -->
+<div class="container form-box row-cols-auto mt-3" id="formula">
+  <div class="form-title">
+    <h1 class="">Inicio sesion</h1>
+    <h2 class="animate__animated animate__bounce ">Asegurado</h2>
+  </div>
+  <form class="" ><br>
+    <div class="col">
+      <div class="form-group col-md-10 label">
+        <label for="">Forma de identificación:</label>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Selecciona una opción</option>
+          <option value="1">NIT</option>
+          <option value="2">CUA</option>
+          <option value="3">CI</option>
+          <option value="4">RUN</option>
+          <option value="5">CE</option>
+          <option value="6">PAS</option>
+          <option value="7">RUC</option>
+          <option value="8">SUP</option>
+          <option value="9">GOB</option>
+        </select>
+        <div id="emailHelp" class="form-text texto">
+          Ingrese la forma de idetificación
+        </div>
+      </div>
+      <br>
+      <div class="form-group col-md-10 label">
+        <label for="" class="">Numero de identificación:</label>
+        <input type="number" class="form-control" id="" placeholder="Nro de identificación" />
+        <div id="emailHelp" class="form-text texto">
+          Ingrese su numero de identificación
+        </div>
+      </div>
+      <br>
+      <div class="form-group col-md-10 label">
+        <label for="inputPassword4">PIN o contraseña</label>
+        <input type="password" class="form-control" id="" placeholder="Contraseña" />
+        <div id="emailHelp" class="form-text texto">Ingrese su contraseña</div>
+      </div>
+      <br>
+      <div>
+        <button class="btn btn-outline-info" type="submit" (click)="irAsegurado()" >Iniciar Sesion</button>
+        <div id="emailHelp" class="form-text texto">Olvido su pin <a href="#">recuperar</a></div>
+      </div>
+    </div>
+  </form>
+</div>
